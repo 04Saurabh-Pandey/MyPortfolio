@@ -10,12 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="future.css" />
     <style>
       .brand{display:inline-flex;align-items:center;gap:9px;color:#fff;text-decoration:none}.brand-name{font:800 11px/.82 Manrope,Arial,sans-serif;letter-spacing:-.8px;text-transform:uppercase;color:#fff!important}.brand-mark{display:grid;place-items:center;width:27px;height:27px;border:1px solid #74e8c8;border-radius:50%;color:#74e8c8!important;font:500 8px "DM Mono",monospace;letter-spacing:-1px;transition:transform .3s ease,background .3s ease}.brand:hover .brand-mark{transform:rotate(-18deg);background:#74e8c8;color:#0b1020!important}
     </style>
   </head>
   <body>
     <div class="noise" aria-hidden="true"></div>
+    <div class="grid-backdrop" aria-hidden="true"></div>
     <div class="cursor-glow" aria-hidden="true"></div>
 
     <header class="site-header">
@@ -25,19 +27,20 @@
         <a href="#work">Work</a>
         <a href="#skills">Skills</a>
       </nav>
-      <a class="header-cta" href="#contact">Let's talk <span>↗</span></a>
+      <a class="header-cta" href="https://wa.me/919956667083?text=Hi%20Saurabh%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" rel="noreferrer">Let's talk <span>↗</span></a>
     </header>
 
     <main id="top">
       <section class="hero section-shell">
         <div class="hero-copy reveal">
-          <p class="eyebrow"><span></span> Available for opportunities</p>
+          <p class="eyebrow"><span></span> Available for opportunities · 2026</p>
           <h1>I make the web<br /><em>feel alive.</em></h1>
           <p class="intro">I'm <strong>Saurabh Pandey</strong>, a BCA student and full-stack developer who turns useful ideas into thoughtful digital experiences.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#work">Explore my work <span>↓</span></a>
-            <a class="button button-text" href="mailto:offiacialsaurabhpandey123@gmail.com">Send an email <span>↗</span></a>
+            <a class="button button-whatsapp" href="https://wa.me/919956667083?text=Hi%20Saurabh%2C%20I%20want%20to%20discuss%20a%20project." target="_blank" rel="noreferrer"><span class="wa-icon">◔</span> WhatsApp me</a>
           </div>
+          <div class="availability"><span class="pulse-dot"></span><span>Replying within 24 hours</span><span class="availability-line"></span><span>India / IST</span></div>
         </div>
         <div class="hero-art reveal" aria-label="Animated code illustration">
           <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
@@ -55,6 +58,12 @@
           <div class="float-card float-card-two"><span>◌</span><small>PROBLEM SOLVING</small><strong>DSA</strong></div>
         </div>
         <div class="scroll-note"><span></span> Scroll to discover</div>
+      </section>
+
+      <section class="signal-strip" aria-label="Developer highlights">
+        <div><span class="signal-label">CURRENTLY</span><strong>Building useful web products</strong></div>
+        <div><span class="signal-label">PRIMARY STACK</span><strong>React · Node · Python</strong></div>
+        <a href="https://wa.me/919956667083?text=Hi%20Saurabh%2C%20let%27s%20connect." target="_blank" rel="noreferrer"><span class="signal-label">FASTEST WAY TO REACH ME</span><strong>WhatsApp ↗</strong></a>
       </section>
 
       <section id="about" class="about section-shell">
@@ -109,9 +118,13 @@
         <div class="contact-orb"></div>
         <p class="eyebrow reveal"><span></span> Have an idea?</p>
         <h2 class="reveal">Let's make it<br /><em>happen.</em></h2>
-        <a class="email-link reveal" href="mailto:offiacialsaurabhpandey123@gmail.com">offiacialsaurabhpandey123@gmail.com <span>↗</span></a>
+        <div class="contact-actions reveal">
+          <a class="email-link" href="mailto:offiacialsaurabhpandey123@gmail.com">offiacialsaurabhpandey123@gmail.com <span>↗</span></a>
+          <a class="contact-wa" href="https://wa.me/919956667083?text=Hi%20Saurabh%2C%20I%20have%20an%20idea%20to%20discuss." target="_blank" rel="noreferrer"><span>◔</span> Start on WhatsApp</a>
+        </div>
       </section>
     </main>
+    
     <footer><a class="brand" href="#top"><span class="brand-name">Saurabh<br />Pandey</span><span class="brand-mark">SP</span></a><p>Designed & built by Saurabh Pandey</p><a href="https://github.com/04Saurabh-Pandey" target="_blank" rel="noreferrer">GitHub ↗</a></footer>
     <script src="script.js"></script>
   </body>
